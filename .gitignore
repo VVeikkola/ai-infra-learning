@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# ML artifacts
+*.h5
+*.pkl
+*.pth
+*.ckpt
+*.weights
+models/
+
+# Large datasets
+data/raw/
+*.parquet
+
+# Docker archives
+*.tar
+minikube-linux-amd64
